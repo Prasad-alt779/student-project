@@ -1,0 +1,17 @@
+post http://localhost:9000/register 
+Content-Type: application/json
+
+{
+    "name": "Hariprasad Chavan",
+    "email": "hari@gmail.com",
+    "password": "hariprasad123",
+    "username": "hariprasad123"
+}
+###
+POST http://localhost:9000/login
+Content-Type: application/json
+
+{
+    "email": "hari@gmail.com",
+    "password": "hariprasad123"
+}
